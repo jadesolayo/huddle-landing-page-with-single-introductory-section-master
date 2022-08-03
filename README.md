@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/Web%20capture_3-8-2022_2426_127.0.0.1.jpeg.jpg) (Web)
+![](./screenshots/Web%20capture_3-8-2022_2426_127.0.0.1.jpeg) (Web)
 
 
 ![](./screenshots/Screenshot_20220803-031129.png)(Mobile)
