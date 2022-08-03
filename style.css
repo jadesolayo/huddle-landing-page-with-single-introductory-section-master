@@ -8,9 +8,18 @@
   box-sizing: border-box;
 }
 body {
+  /* overflow-y: scroll; */
   background: hsl(257, 40%, 49%) url("./images/bg-desktop.svg") no-repeat;
-  overflow: hidden;
   background-size: contain;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(300, 69%, 71%);
+}
+a:hover {
+  text-decoration: underline;
 }
 .main {
   height: 100vh;
@@ -19,7 +28,7 @@ body {
 }
 .logo {
   width: 15%;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .landing-page {
   display: flex;
@@ -28,7 +37,7 @@ body {
 }
 .img-container {
   width: 57%;
-  margin-top: 110px;
+  margin-top: 50px;
 }
 .mock-up {
   width: 100%;
@@ -40,7 +49,6 @@ body {
   margin-top: -30px;
   margin-left: 40px;
   color: white;
-  /* border: 1px solid black; */
 }
 .text-section > h1 {
   font-family: "Poppins", sans-serif;
@@ -53,7 +61,10 @@ body {
   font-size: 16px;
   line-height: 28px;
 }
-.text-section > button {
+.reg-btn {
+  text-align: center;
+}
+.reg-btn > button {
   padding: 10px 50px;
   border-radius: 30px;
   background-color: white;
@@ -67,15 +78,22 @@ body {
   box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.562);
   display: inline-block;
 }
-.text-section > button:hover {
+.reg-btn > button:hover {
   background-color: hsl(300, 69%, 71%);
   color: white;
   transition: 0.5s ease;
 }
 footer {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 70px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.attribution {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 .footer-icons > .fa {
   margin-left: 10px;
@@ -127,11 +145,11 @@ footer {
   .main {
     width: 90vw;
     margin: auto;
-    height: 90vh;
+    height: 100vh;
   }
   .logo {
     margin-top: 40px;
-    width: 40%;
+    width: 50%;
   }
   .landing-page {
     display: flex;
@@ -147,22 +165,38 @@ footer {
   .text-section {
     margin-top: 50px;
     justify-content: center;
-    width: 80%;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
   }
   .text-section > h1 {
     text-align: center;
+    font-size: 1.6rem;
   }
-  .text-section > p{
+  .text-section > p {
     text-align: center;
     font-size: 1.1rem;
-    line-height: 35px;
+    line-height: 32px;
     margin-top: 20px;
-
   }
-  .text-section > button {
-    margin-left: 28%;
+  .reg-btn {
+    margin-top: 10px;
   }
-  footer{
-    justify-content: center;
+  .reg-btn > button {
+    padding: 10px 90px;
   }
+  footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  }
+  .attribution{
+    position: absolute;
+    margin-top: 110px;
+  }
+  footer > .footer-icons {
+    margin-top: 60px;
+    padding-bottom: 30px;
+  }
+  
 }
