@@ -62,7 +62,7 @@ a:hover {
   line-height: 28px;
 }
 .reg-btn {
-  text-align: center;
+  justify-content: flex-start;
 }
 .reg-btn > button {
   padding: 10px 50px;
@@ -181,22 +181,23 @@ footer {
   }
   .reg-btn {
     margin-top: 10px;
+    text-align: center;
   }
   .reg-btn > button {
     padding: 10px 90px;
   }
   footer {
-  display: flex;
-  flex-direction: column;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
-  .attribution{
+  .attribution {
     position: absolute;
     margin-top: 110px;
+    padding-bottom: 30px;
   }
   footer > .footer-icons {
     margin-top: 60px;
     padding-bottom: 30px;
   }
-  
 }
