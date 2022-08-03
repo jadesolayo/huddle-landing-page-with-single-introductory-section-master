@@ -22,7 +22,6 @@ body {
   margin-top: 30px;
 }
 .landing-page {
-  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -128,6 +127,7 @@ footer {
   .main {
     width: 90vw;
     margin: auto;
+    height: 90vh;
   }
   .logo {
     margin-top: 40px;
@@ -135,7 +135,6 @@ footer {
   }
   .landing-page {
     display: flex;
-    flex-basis: 100%;
     flex-direction: column;
     margin-top: 30px;
     align-items: center;
